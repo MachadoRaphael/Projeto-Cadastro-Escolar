@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Righteous&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+.cabecalho{
+	background: linear-gradient(68.15deg, #4169E1 16.62%, #87CEEB 85.61%) ;
+	padding: 24px;
+	text-align: center;
+}
+
+.cabecalho-titulo{
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.conteudo{
+	margin-top: 50px;
+}
+
+.conteudo-principal{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.conteudo-principal-titulo{
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 34px;
+}
+
+.conteudo-principal-escrito{
+	font-family: 'Anek Malayalam', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+
+.conteudo-principal-form{
+	margin-bottom: 0.5em;
+}
+
+.conteudo-principal-imagem{
+	border-radius: 90px;
+}
+
+.btn{
+	background-color: #4169E1;
+	color: #ffffff;
+	width: 60px;
+	height: 20px;
+	border: none;
+	border-radius: 20px;
+	font-family: 'Anek Malayalam', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.rodape{
+	margin-top: 50px;
+	background: linear-gradient(68.15deg, #4169E1 16.62%, #87CEEB 85.61%) ;
+	padding: 24px;
+	text-align: center;
+}
